@@ -1,0 +1,59 @@
+
+.animationXmlPartShow{
+    display:block;
+    background: aquamarine;
+    animation: myMoveXmlPartShow;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    border-radius: 10px;
+    position: relative;
+
+}
+@keyframes myMoveXmlPartShow {
+    0%   { background: aliceblue; width: 100px;}
+    100% { background: aqua; width: 600px;}
+}
+
+.animationStructureList{
+    display:block;
+    background: lightgreen;
+    animation: myMoveStructureList;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    border-radius: 10px;
+    position: relative;
+
+}
+@keyframes myMoveStructureList {
+    0%   { background: aliceblue; width: 100px;}
+    100% { background: lightgreen; width: 600px;}
+}
+
+.animationMessageNameList{
+    display:block;
+    animation: myMoveMessageNameList;
+    animation-duration: 1s;
+    position: relative;
+
+}
+@keyframes myMoveMessageNameList {
+    0%   { top: 100px; background: mediumaquamarine; }
+    100% { top: 0px; background: mediumaquamarine }
+}
+
+.animationXsiTypeList{
+    display:block;
+    animation: myMoveXsiTypeList;
+    animation-duration: 1s;
+    position: relative;
+
+
+}
+@keyframes myMoveXsiTypeList {
+    0%   { top: 100px; color: mediumaquamarine }
+    100% { top: 0px; color: mediumaquamarine }
+}
+
+
